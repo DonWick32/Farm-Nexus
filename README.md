@@ -24,18 +24,7 @@ uvicorn main:app --reload
 - Update the .env file in backend with your credentials
 - Don't forget to start the database service before using the API
 
-### Frontend Setup(Web):
-- Change directory to `Frontend-React`
-- Install required packages
-```
-yarn install
-```
-- Run the development environment
-```
-yarn run dev
-```
-
-### Frontend Setup(App):
+### Frontend Setup:
 - Change directory to `Frontend-Flutter/all_things_green`
 - Install required packages
 ```
@@ -47,5 +36,7 @@ flutter run
 ```
 Contributors:
 - [Nitish N](https://github.com/DonWick32)
-- [Selvanayagam S](https://github.com/S-Selvanayagam)
-- [Sesha Raghavan](https://github.com/Sesha-2804)
+- [Raghavan Balanathan](https://github.com/DarkCoder999)
+- [Vishnu N. Ram](https://github.com/VishnuRam2411)
+- [Sai Pranav M](https://github.com/Sai-Pranav2503)
+- [Srinivasa Raghavan P](https://github.com/psrinivasaraghavan)
