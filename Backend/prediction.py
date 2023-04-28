@@ -16,7 +16,7 @@ import ipywidgets
 from ipywidgets import interact
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
+for dirname, _, filenames in os.walk('../Dataset/'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
@@ -25,7 +25,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 # %%
 # lets read the dataset
-data = pd.read_csv("/kaggle/input/crop-recommendation-dataset/Crop_recommendation.csv")
+data = pd.read_csv("../Dataset/Crop_recommendation.csv")
 
 # lets check teh shape of the dataset
 print("Shape of the Dataset :", data.shape)
