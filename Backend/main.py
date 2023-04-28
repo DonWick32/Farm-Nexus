@@ -16,6 +16,7 @@ from fastapi.security import HTTPBasic, HTTPBasicCredentials
 import hashlib
 import uuid
 import psycopg2
+import prediction
 
 import difflib
 import jwt
@@ -186,7 +187,9 @@ async def get_district_data(district: str = Query(..., description="The district
             return district_data
         else:
             return {"error": "District not found"}
-    return district_data
+    
+    return prediction.recommend(district_data["n"], district_data["p"], district_data["k"], district_data["t"], district_data["h"], district_data["ph"], district_data["r"])
+    # return district_data
 
 # implement scheme data retrieval
 

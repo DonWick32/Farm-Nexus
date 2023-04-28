@@ -22,7 +22,7 @@ class DashboardPage extends GetView<DashboardController> {
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Obx(() => Text("Your District: ${controller.district.value}", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)),
+              child: Obx(() => Text("Your Location: ${controller.district.value}", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)),
             ),
             Expanded(
               child: Obx(

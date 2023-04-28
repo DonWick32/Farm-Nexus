@@ -25,7 +25,7 @@ uvicorn main:app --reload
 - Don't forget to start the database service before using the API
 
 ### Frontend Setup:
-- Change directory to `Frontend-Flutter/all_things_green`
+- Change directory to `Frontend-Flutter/farm_nexus`
 - Install required packages
 ```
 flutter pub get

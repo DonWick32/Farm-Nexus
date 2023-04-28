@@ -7,3 +7,10 @@ databases
 psycopg2
 bcrypt
 pycryptodomex
+sklearn
+xgboost
+scipy
+numpy
+pandas
+matplotlib
+seaborn
